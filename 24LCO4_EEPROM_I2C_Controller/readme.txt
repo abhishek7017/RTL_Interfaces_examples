@@ -25,10 +25,9 @@ The I²C clock frequency is configurable through parameters, allowing the design
 
 | Signal    | Description                  |
 | --------- | ---------------------------- |
-| clk       | System clock                 |
-| rst_n     | Active-low reset             |
-| start     | Initiates EEPROM transaction |
-| rw        | Read/Write control           |
+| CLK       | System clock                 |
+| RST       | Active-low reset             |
+| RW        | Read/Write control           |
 | device_id | EEPROM device address        |
 | mem_addr  | EEPROM memory location       |
 | wr_data   | Data to be written to EEPROM |
